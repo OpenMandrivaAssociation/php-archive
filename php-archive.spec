@@ -15,6 +15,7 @@ Requires(postun): rpm-helper
 BuildRequires:	php-devel >= 3:5.2.0
 BuildRequires:	libarchive-devel
 BuildRequires:	file
+BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 archive extension allows to read and write tar and cpio archives using
