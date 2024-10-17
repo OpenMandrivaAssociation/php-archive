@@ -8,7 +8,7 @@ Version:	0.2
 Release:	%mkrel 23
 Group:		Development/PHP
 License:	PHP License
-URL:		http://pecl.php.net/package/archive
+URL:		https://pecl.php.net/package/archive
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
 Requires(pre): rpm-helper
 Requires(postun): rpm-helper
