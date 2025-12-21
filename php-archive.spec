@@ -12,6 +12,11 @@ URL:		https://pecl.php.net/package/archive
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
 Requires(pre): rpm-helper
 Requires(postun): rpm-helper
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	php-devel >= 3:5.2.0
 BuildRequires:	libarchive-devel
 BuildRequires:	file
