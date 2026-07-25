@@ -5,7 +5,7 @@
 Summary:	Archive extension
 Name:		php-%{modname}
 Version:	0.2
-Release:	%mkrel 23
+Release:	24
 Group:		Development/PHP
 License:	PHP License
 URL:		https://pecl.php.net/package/archive
